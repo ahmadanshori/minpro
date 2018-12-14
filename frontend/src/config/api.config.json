@@ -1,0 +1,51 @@
+{
+    "BASE_URL" : "https://backend-minpro.herokuapp.com/api",
+    "ENDPOINTS" : {
+        "LOGIN" : {
+            "LOGIN" : "/user/login",
+            "FORGOT" : "/user/forgot",
+            "REPASS": "/user/repass",
+            "NOTIFADMIN" : "/user/notifadmin",
+            "NOTIFSTAFF" : "/user/notifstaff"
+        },       
+        "USER" : {
+            "USER" : "/user",
+            "EMPLOYEE": "/useremployee",
+            "STAFF" : "/userstaff"
+        },
+        "PROMOTION" : {
+            "PROMOTION" : "/promotion",
+            "ITEM" : "/promotionitem",
+            "ITEMCLOSE" :"/promotionitemclose",
+            "FILE" : "/promotionfile",
+            "FILECLOSE" : "/promotionfileclose",
+            "EVENT" : "/tevent",
+            "DESIGN" : "/design"
+        },
+        "UNIT":"/unit",
+        "EMPLOYEE" : "/employee",
+        "KOTA": "/kota",
+        "PROVINSI": "/prov",
+        "DESIGN" : "/design",
+        "COMPANY" :"/company",
+        "ROLE" : "/role",
+        "MENU" : "/menu",
+        "SIDEBAR" : "/menusidebar",
+        "ACCESS" : "/accessmenu",
+        "KOTA": "/kota",
+        "PROVINSI": "/prov",
+        "TSOUVENIRITEM":"/tsouveniritem",
+        "TSOUVENIRITEMAPPROVE":"/tsouveniritemapprove",
+        "TSOUVENIRITEMREJECT":"/tsouveniritemreject",
+        "TSOUVENIRITEMVIEW":"/tsouveniritemview",
+        "TSOUVENIRITEMRECEIVED": "/tsouveniritemreceived",
+        "TSOUVENIRITEMSETTLEMENT": "/tsouveniritemsettlement",
+        "TSOUVENIRITEMAPPROVESETTLEMENT": "/tsouveniritemapprovesettlement",
+        "TSOUVENIRITEMCLOSEORDER":"/tsouveniritemcloseorder"
+    },
+    
+    "LS" : {
+        "USERDATA" : "B159_USERDATA_KEY",
+        "TOKEN" : "B159_TOKEN_KEY"
+    }
+}

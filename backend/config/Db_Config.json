@@ -1,0 +1,7 @@
+{
+  "local": {
+    "host": "mongodb://miniproject176:wikwik418@ds157843.mlab.com",
+    "port": 57843,
+    "name": "miniproject176"
+  }
+}
